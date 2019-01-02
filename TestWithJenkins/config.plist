@@ -11,7 +11,7 @@
 	<key>token_url</key>
 	<string>http://infince.com/token/request</string>
 	<key>app_color</key>
-	<string>#1bb836</string>
+	<string>#FF0000</string>
 	<key>callback_url</key>
 	<string>http://infince.com/callback</string>
 	<key>url_scheme</key>
