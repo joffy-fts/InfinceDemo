@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC0451A21DC9BC200558D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0451921DC9BC200558D74 /* AppDelegate.swift */; };
+		ADC0451C21DC9BC200558D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0451B21DC9BC200558D74 /* ViewController.swift */; };
+		ADC0451F21DC9BC200558D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC0451D21DC9BC200558D74 /* Main.storyboard */; };
+		ADC0452221DC9BC200558D74 /* TestWithJenkins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADC0452021DC9BC200558D74 /* TestWithJenkins.xcdatamodeld */; };
+		ADC0452421DC9BCD00558D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC0452321DC9BCD00558D74 /* Assets.xcassets */; };
+		ADC0452721DC9BCD00558D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC0452521DC9BCD00558D74 /* LaunchScreen.storyboard */; };
+		ADC0453221DC9BCD00558D74 /* TestWithJenkinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0453121DC9BCD00558D74 /* TestWithJenkinsTests.swift */; };
+		ADC0453D21DC9BCD00558D74 /* TestWithJenkinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0453C21DC9BCD00558D74 /* TestWithJenkinsUITests.swift */; };
+		ADC0454B21DC9D0300558D74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0454A21DC9D0300558D74 /* HomeViewController.swift */; };
+		ADC0454D21DCB88B00558D74 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADC0454C21DCB88B00558D74 /* config.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADC0452E21DC9BCD00558D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC0450E21DC9BC200558D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC0451521DC9BC200558D74;
+			remoteInfo = TestWithJenkins;
+		};
+		ADC0453921DC9BCD00558D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC0450E21DC9BC200558D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC0451521DC9BC200558D74;
+			remoteInfo = TestWithJenkins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADC0451621DC9BC200558D74 /* TestWithJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWithJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC0451921DC9BC200558D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADC0451B21DC9BC200558D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADC0451E21DC9BC200558D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADC0452121DC9BC200558D74 /* TestWithJenkins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestWithJenkins.xcdatamodel; sourceTree = "<group>"; };
+		ADC0452321DC9BCD00558D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADC0452621DC9BCD00558D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADC0452821DC9BCD00558D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC0452D21DC9BCD00558D74 /* TestWithJenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWithJenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC0453121DC9BCD00558D74 /* TestWithJenkinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWithJenkinsTests.swift; sourceTree = "<group>"; };
+		ADC0453321DC9BCD00558D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC0453821DC9BCD00558D74 /* TestWithJenkinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWithJenkinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC0453C21DC9BCD00558D74 /* TestWithJenkinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWithJenkinsUITests.swift; sourceTree = "<group>"; };
+		ADC0453E21DC9BCD00558D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC0454A21DC9D0300558D74 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ADC0454C21DCB88B00558D74 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC0451321DC9BC200558D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC0452A21DC9BCD00558D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC0453521DC9BCD00558D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC0450D21DC9BC200558D74 = {
+			isa = PBXGroup;
+			children = (
+				ADC0451821DC9BC200558D74 /* TestWithJenkins */,
+				ADC0453021DC9BCD00558D74 /* TestWithJenkinsTests */,
+				ADC0453B21DC9BCD00558D74 /* TestWithJenkinsUITests */,
+				ADC0451721DC9BC200558D74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC0451721DC9BC200558D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0451621DC9BC200558D74 /* TestWithJenkins.app */,
+				ADC0452D21DC9BCD00558D74 /* TestWithJenkinsTests.xctest */,
+				ADC0453821DC9BCD00558D74 /* TestWithJenkinsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC0451821DC9BC200558D74 /* TestWithJenkins */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0454C21DCB88B00558D74 /* config.plist */,
+				ADC0451921DC9BC200558D74 /* AppDelegate.swift */,
+				ADC0451B21DC9BC200558D74 /* ViewController.swift */,
+				ADC0454A21DC9D0300558D74 /* HomeViewController.swift */,
+				ADC0451D21DC9BC200558D74 /* Main.storyboard */,
+				ADC0452321DC9BCD00558D74 /* Assets.xcassets */,
+				ADC0452521DC9BCD00558D74 /* LaunchScreen.storyboard */,
+				ADC0452821DC9BCD00558D74 /* Info.plist */,
+				ADC0452021DC9BC200558D74 /* TestWithJenkins.xcdatamodeld */,
+			);
+			path = TestWithJenkins;
+			sourceTree = "<group>";
+		};
+		ADC0453021DC9BCD00558D74 /* TestWithJenkinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0453121DC9BCD00558D74 /* TestWithJenkinsTests.swift */,
+				ADC0453321DC9BCD00558D74 /* Info.plist */,
+			);
+			path = TestWithJenkinsTests;
+			sourceTree = "<group>";
+		};
+		ADC0453B21DC9BCD00558D74 /* TestWithJenkinsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0453C21DC9BCD00558D74 /* TestWithJenkinsUITests.swift */,
+				ADC0453E21DC9BCD00558D74 /* Info.plist */,
+			);
+			path = TestWithJenkinsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC0451521DC9BC200558D74 /* TestWithJenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC0454121DC9BCD00558D74 /* Build configuration list for PBXNativeTarget "TestWithJenkins" */;
+			buildPhases = (
+				ADC0451221DC9BC200558D74 /* Sources */,
+				ADC0451321DC9BC200558D74 /* Frameworks */,
+				ADC0451421DC9BC200558D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWithJenkins;
+			productName = TestWithJenkins;
+			productReference = ADC0451621DC9BC200558D74 /* TestWithJenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADC0452C21DC9BCD00558D74 /* TestWithJenkinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC0454421DC9BCD00558D74 /* Build configuration list for PBXNativeTarget "TestWithJenkinsTests" */;
+			buildPhases = (
+				ADC0452921DC9BCD00558D74 /* Sources */,
+				ADC0452A21DC9BCD00558D74 /* Frameworks */,
+				ADC0452B21DC9BCD00558D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC0452F21DC9BCD00558D74 /* PBXTargetDependency */,
+			);
+			name = TestWithJenkinsTests;
+			productName = TestWithJenkinsTests;
+			productReference = ADC0452D21DC9BCD00558D74 /* TestWithJenkinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADC0453721DC9BCD00558D74 /* TestWithJenkinsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC0454721DC9BCD00558D74 /* Build configuration list for PBXNativeTarget "TestWithJenkinsUITests" */;
+			buildPhases = (
+				ADC0453421DC9BCD00558D74 /* Sources */,
+				ADC0453521DC9BCD00558D74 /* Frameworks */,
+				ADC0453621DC9BCD00558D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC0453A21DC9BCD00558D74 /* PBXTargetDependency */,
+			);
+			name = TestWithJenkinsUITests;
+			productName = TestWithJenkinsUITests;
+			productReference = ADC0453821DC9BCD00558D74 /* TestWithJenkinsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC0450E21DC9BC200558D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "FTS-MAC-33";
+				TargetAttributes = {
+					ADC0451521DC9BC200558D74 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ADC0452C21DC9BCD00558D74 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ADC0451521DC9BC200558D74;
+					};
+					ADC0453721DC9BCD00558D74 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ADC0451521DC9BC200558D74;
+					};
+				};
+			};
+			buildConfigurationList = ADC0451121DC9BC200558D74 /* Build configuration list for PBXProject "TestWithJenkins" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADC0450D21DC9BC200558D74;
+			productRefGroup = ADC0451721DC9BC200558D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC0451521DC9BC200558D74 /* TestWithJenkins */,
+				ADC0452C21DC9BCD00558D74 /* TestWithJenkinsTests */,
+				ADC0453721DC9BCD00558D74 /* TestWithJenkinsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC0451421DC9BC200558D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC0454D21DCB88B00558D74 /* config.plist in Resources */,
+				ADC0452721DC9BCD00558D74 /* LaunchScreen.storyboard in Resources */,
+				ADC0452421DC9BCD00558D74 /* Assets.xcassets in Resources */,
+				ADC0451F21DC9BC200558D74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC0452B21DC9BCD00558D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC0453621DC9BCD00558D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC0451221DC9BC200558D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC0451C21DC9BC200558D74 /* ViewController.swift in Sources */,
+				ADC0451A21DC9BC200558D74 /* AppDelegate.swift in Sources */,
+				ADC0452221DC9BC200558D74 /* TestWithJenkins.xcdatamodeld in Sources */,
+				ADC0454B21DC9D0300558D74 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC0452921DC9BCD00558D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC0453221DC9BCD00558D74 /* TestWithJenkinsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC0453421DC9BCD00558D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC0453D21DC9BCD00558D74 /* TestWithJenkinsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADC0452F21DC9BCD00558D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC0451521DC9BC200558D74 /* TestWithJenkins */;
+			targetProxy = ADC0452E21DC9BCD00558D74 /* PBXContainerItemProxy */;
+		};
+		ADC0453A21DC9BCD00558D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC0451521DC9BC200558D74 /* TestWithJenkins */;
+			targetProxy = ADC0453921DC9BCD00558D74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADC0451D21DC9BC200558D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC0451E21DC9BC200558D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADC0452521DC9BCD00558D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC0452621DC9BCD00558D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC0453F21DC9BCD00558D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADC0454021DC9BCD00558D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC0454221DC9BCD00558D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DTD7W6D23B;
+				INFOPLIST_FILE = TestWithJenkins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infince.stgClient9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f6af56e8-22c2-4652-9516-d9f56a01bf69";
+				PROVISIONING_PROFILE_SPECIFIER = Infince_STGClient9_Dev_Profile;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADC0454321DC9BCD00558D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DTD7W6D23B;
+				INFOPLIST_FILE = TestWithJenkins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infince.stgClient9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bd244075-f115-40ff-a18b-c78bd746c013";
+				PROVISIONING_PROFILE_SPECIFIER = "Infince_STGClient9_In-House_Profile";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADC0454521DC9BCD00558D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestWithJenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingent.infince.TestWithJenkinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestWithJenkins.app/TestWithJenkins";
+			};
+			name = Debug;
+		};
+		ADC0454621DC9BCD00558D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestWithJenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingent.infince.TestWithJenkinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestWithJenkins.app/TestWithJenkins";
+			};
+			name = Release;
+		};
+		ADC0454821DC9BCD00558D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestWithJenkinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingent.infince.TestWithJenkinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestWithJenkins;
+			};
+			name = Debug;
+		};
+		ADC0454921DC9BCD00558D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestWithJenkinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingent.infince.TestWithJenkinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestWithJenkins;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC0451121DC9BC200558D74 /* Build configuration list for PBXProject "TestWithJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC0453F21DC9BCD00558D74 /* Debug */,
+				ADC0454021DC9BCD00558D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC0454121DC9BCD00558D74 /* Build configuration list for PBXNativeTarget "TestWithJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC0454221DC9BCD00558D74 /* Debug */,
+				ADC0454321DC9BCD00558D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC0454421DC9BCD00558D74 /* Build configuration list for PBXNativeTarget "TestWithJenkinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC0454521DC9BCD00558D74 /* Debug */,
+				ADC0454621DC9BCD00558D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC0454721DC9BCD00558D74 /* Build configuration list for PBXNativeTarget "TestWithJenkinsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC0454821DC9BCD00558D74 /* Debug */,
+				ADC0454921DC9BCD00558D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADC0452021DC9BC200558D74 /* TestWithJenkins.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADC0452121DC9BC200558D74 /* TestWithJenkins.xcdatamodel */,
+			);
+			currentVersion = ADC0452121DC9BC200558D74 /* TestWithJenkins.xcdatamodel */;
+			path = TestWithJenkins.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADC0450E21DC9BC200558D74 /* Project object */;
+}
